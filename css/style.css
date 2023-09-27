@@ -51,9 +51,12 @@ textarea {
 }
 
 input[type="text"]::placeholder {
+  /* placeholder muda a estilização do texto que informa oque deve ser digitado */
+  color: blue;
 }
 
 input[type="text"]:focus {
+  /* focus munda a estilização quando clica no campo */
   outline: none;
 }
 
